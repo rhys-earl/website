@@ -3,26 +3,25 @@ import ExperienceItem from "@/components/ExperienceItem";
 
 export const metadata: Metadata = {
   title: "Experience",
-  description: "Work history and CV of Rhys Earl.",
+  description: "Work history.",
 };
 
 // TODO: Replace with real work history
 const experiences = [
   {
-    title: "Postdoctoral Researcher",
-    org: "[University Name]",
-    dateRange: "2022 – Present",
+    title: "Research Fellow",
+    org: "[National University of Singapore]",
+    dateRange: "2026 – Present",
     bullets: [
-      "Conducted research on [topic placeholder]",
-      "Published 3 peer-reviewed papers in [journal placeholder]",
-      "Supervised 2 graduate students",
+      "Conducting research on antibody decay modelling, dengue forecasting and influenza.  ",
+
     ],
-    tags: ["Research", "Mentorship"],
+    tags: ["Research"],
   },
   {
     title: "PhD Candidate",
-    org: "[University Name]",
-    dateRange: "2018 – 2022",
+    org: "[Imperial College London]",
+    dateRange: "2022 – 2025",
     bullets: [
       'Thesis: "[Thesis title placeholder]"',
       "Awarded [Fellowship placeholder]",
